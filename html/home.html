@@ -3,34 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Grille HTML accessible</title>
 </head>
 <body>
-  <h1>Grille 5 x 3</h1>
-  <table>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>7</td>
-        <td>8</td>
-        <td>9</td>
-        <td>10</td>
-      </tr>
-      <tr>
-        <td>11</td>
-        <td>12</td>
-        <td>13</td>
-        <td>14</td>
-        <td>15</td>
-      </tr>
-    </tbody>
-  </table>
+  <main>
+    <h1>Grille 5 x 3</h1>
+    <p>Cette page presente une grille HTML de 5 colonnes et 3 lignes.</p>
+
+    <table>
+      <caption>Representation tabulaire d'une grille 5 x 3</caption>
+      <thead>
+        <tr>
+          <th scope="col">Lignes</th>
+          <th scope="col">Colonne 1</th>
+          <th scope="col">Colonne 2</th>
+          <th scope="col">Colonne 3</th>
+          <th scope="col">Colonne 4</th>
+          <th scope="col">Colonne 5</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Ligne 1</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <th scope="row">Ligne 2</th>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th scope="row">Ligne 3</th>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
 </body>
 </html>
